@@ -1,0 +1,227 @@
+
+
+@media screen and (max-width:810px){
+
+    /*Navbar*/
+
+    .navbar{
+        background-color: #1b288f;
+        padding-top: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+
+    .navbar .menu {
+        z-index: 1;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        background-color: #1b288f;
+        height: 24vh;
+        padding: 1rem;
+        transform: translateY(-180%);
+        transition: all 1.4s;
+    }
+
+    .menu-bar{
+        margin-top: 10px;
+        display: block;
+    }
+
+    .navbar .menu-toggle {
+        transform: translateY(0%);
+    }
+
+
+    /*Final Navbar*/
+
+
+
+    /*Portfolio*/
+    .card{
+        width: 64%;
+        height: 64%;
+    }
+
+    .card-content{
+        flex-direction: column;
+    }
+
+    .card-content img{
+        width: 80%;
+        height: 40%;
+        margin-left: 0;
+        margin-top: -2.5rem;
+    }
+
+    .card-text{
+        padding: 0.5rem;
+    }
+
+    .card-text a{
+        align-self: center;
+    }
+
+    .card-text .ico-container{
+        margin-bottom: 20px;
+    }
+
+
+    /*Contact*/
+    .contact form{
+        width: 80%;
+    }
+
+    /*ABout*/
+
+}
+
+@media screen and (max-width:580px){
+
+    .main-body{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .main-body .title{
+        font-size: 22px;
+    }
+
+    .main-body .text h2{
+        font-size: 20px;
+    }
+
+    .icon{
+        width: 36px;
+        height: 36px;
+        cursor: pointer;
+    }
+
+    section{
+        overflow: hidden;
+    }
+
+    .navbar .menu {
+
+        height: 30vh;
+    }
+
+
+    .main{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        position: relative;
+    }
+
+    .main-body{
+        margin-top: 40px;
+    }
+
+    .main-body .text{
+        width: 94vw;
+        font-size: 16px;
+    }
+
+    .main-body h1{
+        font-size: 24px;
+    }
+
+    .text{
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .bloque1{
+        display: none;
+    }
+
+
+    /*portfolio*/
+    .card{
+        width: 80vw;
+    }
+
+    .card-content{
+        gap: 1rem;
+    }
+
+    .card-content img {
+        width: 100%;
+        height: 40%;
+        margin-left: 0px;
+    }
+
+    .card-text {
+        height: 64%;
+        gap: 28px;
+    }
+
+
+    .card-text p{
+        padding: 0 0.8rem;
+    }
+
+    /*About*/
+
+    .profile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile img{
+        width: 80vw;
+    }
+
+    .about-content .text{
+        width: 80vw;
+    }
+
+    .experience-container{
+        width: 80vw;
+    }
+
+    /*Contact*/
+    .contact h3{
+        display: none;
+    }
+
+    .contact form{
+        width: 94%;
+    }
+
+    form div{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .contact form div input{
+        width: 100%;
+    }
+
+    /*Footer*/
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .content2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .icon-container{
+        margin-bottom: 20px;
+    }
+
+}

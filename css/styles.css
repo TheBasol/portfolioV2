@@ -1,0 +1,432 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    background-color: #191C32;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+/*Navbar*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.navbar h4 {
+    margin-top: 10px;
+    color: #b9b6b6;
+}
+
+li:hover,a:hover{
+    background-color: #9080ee;
+}
+
+.menu-bar{
+    display: none;
+}
+
+.menu-icon{
+    background: url('https://api.iconify.design/gg/menu-right-alt.svg?color=white') no-repeat center center / contain;
+}
+
+.navbar .menu{
+    padding-right: 20px;
+    margin: 0;
+    display: flex;
+    gap: 16px;
+}
+
+.navbar .menu li, a{
+    padding: 0.5rem;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+/*Final Navbar*/
+
+.icon{
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.linkedin{
+    background: url('https://api.iconify.design/ant-design/linkedin-outlined.svg?color=white') no-repeat center center / contain;
+}
+
+.github{
+    background: url('https://api.iconify.design/akar-icons/github-outline-fill.svg?color=white') no-repeat center center / contain;
+}
+
+.twitter{
+    background: url('https://api.iconify.design/ph/twitter-logo.svg?color=white') no-repeat center center / contain;
+}
+
+/*Header*/
+
+.divider {
+    background-color: #3545d4;
+    width: 50px;
+    height: 3px;
+    margin: 0 auto;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    position: relative;
+}
+
+.ico_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding:2rem 0 0 2rem;
+    z-index: 1;
+    background-color: #191C32;
+}
+
+.main-body{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+#background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+
+#maquina-escribir {
+    border-right: 3px solid #fff;
+    margin: 0;
+  }
+
+.main-body h3 {
+    color: #b9b6b6;
+}
+
+.main-body h1,h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.main-body h2 {
+    color: #818bd4;
+}
+
+.main-body span {
+    color: #332FFF;
+}
+
+.button{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+    height: 48px;
+    color: #fff;
+    background-color: #482ebb;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+}
+
+.main-body .text{
+    width: 60vw;
+}
+
+.mouse{
+    background: url('https://api.iconify.design/mdi/mouse-move-down.svg?color=%234d67f0') no-repeat center center / contain;
+}
+
+.arrow{
+    background: url('https://api.iconify.design/akar-icons/arrow-right.svg?color=white') no-repeat center center / contain;
+    width: 24px;
+    height: 24px;
+}
+
+/*Final Header*/
+
+/*Portfolio*/
+
+.portfolio{
+    margin: 10rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.react{
+
+background: url('https://api.iconify.design/logos/react.svg') no-repeat center center / contain;
+}
+
+.pwa{
+    background: url('https://api.iconify.design/logos/pwa.svg') no-repeat center center / contain;
+}
+
+.node{
+    background: url('https://api.iconify.design/vscode-icons/file-type-node.svg') no-repeat center center / contain;
+}
+
+.angular{
+    background: url('https://api.iconify.design/logos/angular-icon.svg') no-repeat center center / contain;
+}
+
+.typescript{
+    background: url('https://api.iconify.design/logos/typescript-icon.svg') no-repeat center center / contain;
+}
+
+.card{
+    margin-top: 100px;
+    width: 64vw;
+    height: 60vh;
+    background-color: #2c283a;
+    border-radius: 10px;
+    border: 2px solid #AAB1F2;
+}
+
+.card-content{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.card-content img {
+    height: 80%;
+    min-width: 300px;
+    max-width: 40%;
+    margin-left: -60px;
+    border-radius: 10px;
+    border: 2px solid #AAB1F2;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.card-text .ico-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card-text p{
+    padding: 0 1rem;
+}
+
+.html{
+    background: url('https://api.iconify.design/vscode-icons/file-type-html.svg') no-repeat center center / contain;
+}
+
+.css{
+    background: url('https://api.iconify.design/vscode-icons/file-type-css.svg') no-repeat center center / contain;
+}
+
+.js{
+    background: url('https://api.iconify.design/vscode-icons/file-type-js-official.svg') no-repeat center center / contain;
+}
+
+.source{
+    display: flex;
+}
+
+.portfolio .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:80px;
+}
+
+/*End Portfolio*/
+
+/*About Me*/
+
+.about{
+    margin-bottom: 100px;
+}
+
+.about .divider{
+    margin-bottom: 80px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    color: #fff;
+}
+
+.about-content .text{
+    width: 60vw;
+    line-height: 30px
+}
+
+.about-content .profile{
+    width: 440px;
+    height: 240px;
+    object-fit: cover;
+}
+
+.profile img {
+    border-radius: 10px;
+}
+
+
+.experience-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.experience-content h3{
+    color: #5589EE;
+}
+
+.experience-content p{
+    color: #DAE9FF;
+    font-weight: bold;
+}
+
+/*About Me Final*/
+
+/* Contact Me */
+
+.contact{
+    display: flex;
+    margin: 200px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact form{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 64%;
+    gap: 20px;
+}
+
+.contact  p{
+    color: #A39F9F;
+    margin-bottom: 20px;
+}
+
+.contact  .divider{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.contact  h3{
+    color: #fff;
+}
+
+.contact form div{
+    display: flex;
+    width: 80%;
+    gap: 20px;
+}
+
+.contact form input {
+    background-color: #2E324F;
+    border-radius: 5px;
+    border: 2px solid #AAB2FF;
+    color: #AFAAAA;
+    padding:0.5rem;
+    width: 80%;
+}
+
+.contact form textarea {
+    background-color: #2E324F;
+    border-radius: 5px;
+    border: 2px solid #AAB2FF;
+    color: #AFAAAA;
+    padding:0.5rem;
+    width: 80%;
+    height: 100px;
+}
+
+/*Contact Final*/
+
+
+
+/*Footer*/
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: #2A1E70;
+    color: #fff;
+    min-height: 30vh;
+    padding-top: 40px;
+}
+
+.footer .content1 h3{
+    margin-bottom: 20px;
+}
+
+.footer .content2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer .content2 a{
+    padding: 0.5rem;
+    margin: 0;
+    height: 40px;
+}
+
+.icon-container{
+    display: flex;
+    gap: 20px;
+}
