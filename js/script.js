@@ -8,7 +8,6 @@ menuBar.addEventListener("click", () =>{
     menu.classList.toggle("menu-toggle");
 })
 
-
 const maquina = document.getElementById('maquina-escribir')
 
 

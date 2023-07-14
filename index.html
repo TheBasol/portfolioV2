@@ -30,16 +30,15 @@
             <a class="icon twitter"></a>
         </div>
         <div class="main-body bloque2">
-            <h3>Welcome To My Portfolio Web</h3>
-            <h1 class="title">Hola, Soy <span id="maquina-escribir">Frontend Developer</span></h1>
-            <div class="text">
-                <h2>Un entusiasta en la tecnologia, programacion y desarrollo web. apasionado por aprender cosas nuevas. me gusta la musica</h2>
+            <div class="main-content-text">
+                <h3>Welcome To My Portfolio Web</h3>
+                <h1 class="title">Hola, Soy <span id="maquina-escribir">Frontend Developer</span></h1>
+                <a class="button" href="#contact">Contact Me<div class="arrow"></div></a>
+                <div class="icon mouse"></div>
+                <div id="background-video">
+                </div>                
             </div>
-            <a class="button" href="#contact">Contact Me<div class="arrow"></div></a>
-            <div class="icon mouse"></div>
-            <video id="background-video" autoplay loop muted">
-                <source src="./img/video.mp4" type="video/mp4">
-            </video>
+
         </div>
     </main>
 
@@ -51,14 +50,13 @@
                 <img src="./img/gallery.png" alt="gallery app">
                 <div class="card-text">
                     <h2>Gallery App React</h2>
-                    <p>Aplicacion PWA adaptada para windows,android y ios, hecha con React utilizando la api de unsplash con un backend hecho en Node.js</p>
-                    <a class="button" href="https://peaceful-ride-38fcf1.netlify.app/" target="_blank">Go<div class="arrow"></div></a>
+                    <p>Aplicacion PWA adaptada para windows,android y ios, hecha con Typescript y React utilizando la api de unsplash</p>
+                    <a class="button" href="https://gallery-app-typescript.netlify.app/" target="_blank">Go<div class="arrow"></div></a>
                     <div class="ico-container">
                         <a class="icon github" href="https://github.com/TheBasol/Gallery-App" target="_blank"></a>
                         <div class="source">
                             <div class="icon react"></div>
-                            <div class="icon pwa"></div>
-                            <div class="icon node"></div>
+                            <div class="icon typescript"></div>
                         </div>
                     </div>
                 </div>
@@ -89,7 +87,7 @@
                 <img src="./img/cotizador.png" alt="">
                 <div class="card-text">
                     <h2>Cotizador Criptomonedas</h2>
-                    <p>Cotizador de Criptomonedas, cotiza con las Criptomonedas mas usas utilando una api</p>
+                    <p>Cotizador de Criptomonedas, cotiza con las Criptomonedas mas importante</p>
                     <a class="button" href="https://angry-northcutt-8a9ba8.netlify.app/" target="_blank">Go<div class="arrow"></div></a>
                     <div class="ico-container">
                         <a class="icon github" href="https://github.com/TheBasol/CotizadorCripto" target="_blank"></a>
@@ -121,23 +119,6 @@
             </div>
         </div>
 
-        <div class="card">
-            <div class="card-content">
-                <img src="./img/preguntasR.png" alt="">
-                <div class="card-text">
-                    <h2>Preguntas y Respuestas</h2>
-                    <p>Aplicacion preguntas y respuestas hecha en Angular 12 </p>
-                    <a class="button" href="https://thebasol.github.io/PreguntasRespuestas/dashboard" target="_blank">Go<div class="arrow"></div></a>
-                    <div class="ico-container">
-                        <a class="icon github" href="https://github.com/TheBasol/PreguntasRespuestas" target="_blank"></a>
-                        <div class="source">
-                            <div class="icon angular"></div>
-                            <div class="icon typescript"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         
     </section>
 
@@ -205,7 +186,7 @@
     </footer>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="js/post.js"></script>
+    <script type="module" src="js/backgroundThree.js"></script>
     <script src="js/script.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">emailjs.init('user_DjtT0gdNVFRgRrfzKZTit')</script>
