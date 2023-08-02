@@ -16,7 +16,7 @@
         z-index: 1;
         flex-direction: column;
         position: absolute;
-        top: 80px;
+        top: 70px;
         right: 0;
         background-color: #1b288f;
         height: 24vh;
@@ -86,6 +86,17 @@
         gap: 60px;
     }
 
+    #background-video {
+        height: 60vh;
+    }
+
+    .main-content-text{
+        gap: 30px;
+        width: auto;
+        height: auto;
+        padding: 10px;
+    }
+
     .main-body .title{
         font-size: 22px;
     }
@@ -106,7 +117,7 @@
 
     .navbar .menu {
 
-        height: 30vh;
+        height: 36vh;
     }
 
 

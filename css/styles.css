@@ -325,7 +325,7 @@ background: url('https://api.iconify.design/logos/react.svg') no-repeat center c
 .experience-container{
     width: 50%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .experience-content{
