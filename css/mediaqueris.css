@@ -80,10 +80,16 @@
 
 @media screen and (max-width:580px){
 
+    .main{
+        margin-bottom: 34vh;
+    }
+
     .main-body{
         display: flex;
+        height: auto;
+        padding: 40px;
         flex-direction: column;
-        gap: 60px;
+        gap: 10px;
     }
 
     #background-video {
@@ -106,8 +112,8 @@
     }
 
     .icon{
-        width: 36px;
-        height: 36px;
+        width: 32px;
+        height: 32px;
         cursor: pointer;
     }
 
