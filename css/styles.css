@@ -112,6 +112,31 @@ li:hover,a:hover{
     gap: 2rem;
 }
 
+/* header Animation */
+
+.container-animation{
+    position: relative;
+}
+
+.box {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    animation: boxes 12s ease-in infinite;
+    transform: scale(0);
+}
+
+@keyframes boxes {
+    0%{
+        transform: scale(0) rotate(0deg);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(20) rotate(960deg);
+        opacity: 0;
+    }
+}
+
 .main-content-text {
     display: flex;
     justify-content: center;
@@ -124,19 +149,9 @@ li:hover,a:hover{
     height: auto;
     padding: 10px;
     border-radius: 12px;
+    z-index: 1;
 }
 
-#background-video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
-  }
 
 
 #maquina-escribir {
